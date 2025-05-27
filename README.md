@@ -1,3 +1,7 @@
+![image](https://github.com/user-attachments/assets/28339d2d-099b-43cb-8d9a-b43c5de4c91e)
+![image](https://github.com/user-attachments/assets/9ae819cf-feb7-4d95-b553-7e44acf84580)
+
+
 # ANN_CLLASIFICATION_CHRUN
 This project predicts customer churn in a banking environment using an Artificial Neural Network (ANN). It leverages Streamlit for interactive user input, Scikit-learn for preprocessing, and TensorFlow/Keras for model development and deployment.
 

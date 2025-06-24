@@ -36,13 +36,13 @@ Customer churn—when users stop using a service—is a critical metric for busi
 ---
 
 ## 📁 Project Structure
-├── app.py # Main Streamlit application
-├── model.h5 # Trained ANN model
-├── scaler.pkl # StandardScaler object (Pickle)
-├── onehot_encoder_geo.pkl # OneHotEncoder for 'Geography' (Pickle)
-├── label_encoder_gender.pkl # LabelEncoder for 'Gender' (Pickle)
-├── requirements.txt # Required Python packages
-└── README.md # Project documentation
+- app.py # Main Streamlit application
+- model.h5 # Trained ANN model
+- scaler.pkl # StandardScaler object (Pickle)
+- onehot_encoder_geo.pkl # OneHotEncoder for 'Geography' (Pickle)
+- label_encoder_gender.pkl # LabelEncoder for 'Gender' (Pickle)
+- requirements.txt # Required Python packages
+- README.md # Project documentation
 
 
 ---
@@ -50,10 +50,35 @@ Customer churn—when users stop using a service—is a critical metric for busi
 ## 💡 How to Run the Project
 
 1. **Install dependencies:**
-
 ```bash
 pip install -r requirements.txt
-
+```
+2. **Run the Streamlit app:**
+```bash
 streamlit run app.py
+````
+3.Enter customer data in the UI and get an instant churn prediction!
+
+---
+## 📈 Sample Input Features
+- Credit Score
+- Geography (One-Hot Encoded)
+- Gender (Label Encoded)
+- Age
+- Tenure
+- Account Balance
+- Number of Products
+- Has Credit Card
+- Is Active Member
+- Estimated Salary
+
+---
+## 🔮 Future Improvements
+
+- 📊 Model evaluation (e.g., Accuracy, Precision, Recall, AUC)
+- 🎨 Enhanced UI/UX with visualization and interpretation
+- 🔗 Integration with live customer databases or dashboards
+
+
 
 

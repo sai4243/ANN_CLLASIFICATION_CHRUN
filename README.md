@@ -5,10 +5,10 @@
 # ANN_CLLASIFICATION_CHRUN
 This project predicts customer churn in a banking environment using an Artificial Neural Network (ANN). It leverages Streamlit for interactive user input, Scikit-learn for preprocessing, and TensorFlow/Keras for model development and deployment.
 
-🔍 Problem Statement
+#🔍 Problem Statement
 Customer churn—when users stop using a service—is a critical metric for businesses. This project helps banks predict if a customer is likely to leave, enabling targeted retention strategies.
 
-🚀 Features
+#🚀 Features
 
 🎯 Binary classification of customer churn (Yes/No)
 🧰 Preprocessing with LabelEncoder, OneHotEncoder, and StandardScaler
@@ -17,7 +17,7 @@ Customer churn—when users stop using a service—is a critical metric for busi
 🌐 Interactive web UI using Streamlit
 📊 Real-time predictions based on user input
 
-🧩 Technologies Used
+#🧩 Technologies Used
 Python 🐍
 TensorFlow
 Keras (via TensorFlow)
@@ -33,14 +33,14 @@ Pickle (for encoder and scaler persistence)
 ├── label_encoder_gender     # LabelEncoder for 'Gender' (Pickle)
 └── README.md
 
-💡 How to Run
+#💡 How to Run
 1.Install dependencies:
 bash: pip install -r requirements.txt
 2.Run the Streamlit app:
 bash:streamlit run ann.py
 3.Enter customer data and get an instant churn prediction!
 
-📈 Sample Input Features
+#📈 Sample Input Features
 Credit Score
 Geography (One-Hot Encoded)
 Gender (Label Encoded)
@@ -52,7 +52,7 @@ Has Credit Card
 Is Active Member
 Estimated Salary
 
-🛠 Future Improvements
+#🛠 Future Improvements
 Model performance evaluation (accuracy, AUC)
 Improved UI/UX with visual insights
 Integration with live customer databases

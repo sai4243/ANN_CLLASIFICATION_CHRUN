@@ -36,4 +36,24 @@ Customer churn—when users stop using a service—is a critical metric for busi
 ---
 
 ## 📁 Project Structure
+├── app.py # Main Streamlit application
+├── model.h5 # Trained ANN model
+├── scaler.pkl # StandardScaler object (Pickle)
+├── onehot_encoder_geo.pkl # OneHotEncoder for 'Geography' (Pickle)
+├── label_encoder_gender.pkl # LabelEncoder for 'Gender' (Pickle)
+├── requirements.txt # Required Python packages
+└── README.md # Project documentation
+
+
+---
+
+## 💡 How to Run the Project
+
+1. **Install dependencies:**
+
+```bash
+pip install -r requirements.txt
+
+streamlit run app.py
+
 
